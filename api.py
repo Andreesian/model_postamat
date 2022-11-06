@@ -76,7 +76,7 @@ def export_to_csv(data, filename):
     #open file as binary and return it
 
 if __name__ == '__main__':
-    app.run()
+    app.run(app.run(host="0.0.0.0", port="5000"))
 
 #example url request
 #127.0.0.1:5000/api?radius=1000&model=1&object_types=kiosk,tc,mfc,dk,library,sport&area=rayon&rayons=район+Ясенево,район+Кунцево
